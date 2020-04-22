@@ -2,14 +2,19 @@
 ### 출력
 ```python
 print("Hello world!")
-print('Hello "world"')  # 출력 : Hello "world"
+print('Hello "world"')      # 출력 : Hello "world"
+print(object, '출력 내용')  # 출력 : <실행된 객체에 대한 내용> 출력 내용
 ```
 - 큰 따옴표 : 텍스트   
 - 작은 따옴표 : 기호, 식별자   
 - 큰 따옴표 3개 : 정규표현식   
 큰 따옴표 & 작은 따옴표 거의 완전히 같음   
-따옴표 안에 다른 따옴표가 있어도 문자로 인식함   
-## math library
+따옴표 안에 다른 따옴표가 있어도 문자로 인식함  
+### 출력 포맷
+```python
+list.append("%d + %d = %d" % (a, b, c))
+```
+## math Module
 ```python
 math.ceil()     # 올림
 math.floor()    # 내림
